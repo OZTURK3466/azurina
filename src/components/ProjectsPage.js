@@ -31,11 +31,10 @@ const ProjectsPage = () => {
   
   // Liste des projets à venir
   const upcomingProjects = [
-    { name: "Résidence Les Oliviers - Cannes" },
-    { name: "Villa Azure - Saint-Jean-Cap-Ferrat" },
-    { name: "Penthouse Panorama - Monaco" },
-    { name: "Domaine des Vignes - Saint-Tropez" },
-    { name: "Résidence Lumière - Nice" }
+    { name: "Villa Picasso 1" },
+    { name: "Villa Picasso 2" },
+    { name: "Villa Fassum" },
+    { name: "Villa Romarin" }
   ];
 
   useEffect(() => {
