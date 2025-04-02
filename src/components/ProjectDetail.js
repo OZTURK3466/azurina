@@ -13,7 +13,7 @@ const ProjectDetail = () => {
   const projectsData = {
     'villa-mougins': {
       id: 1,
-      title: 'Villa Mougins',
+      title: 'Villa Tulipe',
       location: 'Mougins',
       address: 'Mougins, Alpes-Maritimes',
       completion: 'Disponible immédiatement',

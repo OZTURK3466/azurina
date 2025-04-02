@@ -11,7 +11,7 @@ const ProjectsPage = () => {
   const projects = [
     {
       id: 1,
-      title: 'Villa Mougins',
+      title: 'Villa Tulipe',
       location: 'Mougins',
       description: 'Luxe contemporain et vues panoramiques dans un écrin de verdure provençal.',
       mainImage: '/images/villa2/photo5.jpg',

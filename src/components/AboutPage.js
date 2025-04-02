@@ -63,7 +63,7 @@ const AboutPage = () => {
     { year: '2020', event: 'Création d\'Azurina par SAMRA' },
     { year: '2021', event: 'Premier projet résidentiel de luxe à Mougins' },
     { year: '2022', event: 'Expansion des activités sur la Côte d\'Azur' },
-    { year: '2023', event: 'Lancement de la Villa Cytes à Mandelieu-La-Napoule' },
+    { year: '2023', event: 'Lancement de la Villa Cystes à Mandelieu-La-Napoule' },
     { year: '2024', event: 'Développement de nouveaux projets prestigieux' }
   ];
 

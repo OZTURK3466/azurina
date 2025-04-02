@@ -7,7 +7,7 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: 'Villa Mougins',
+      title: 'Villa Tulipe',
       location: 'Mougins',
       description: 'Test.',
       image: '/images/villa2/photo5.jpg',
