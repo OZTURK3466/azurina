@@ -1,0 +1,127 @@
+/* components/Header.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: var(--transition);
+  padding: 20px 0;
+  background-color: transparent;
+}
+
+.header.scrolled {
+  background-color: rgba(26, 26, 26, 0.98);
+  padding: 15px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  z-index: 1001;
+}
+
+.logo {
+  height: 60px;
+  object-fit: contain;
+}
+
+.nav-desktop ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-desktop a {
+  color: var(--light-color);
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition);
+  font-weight: 500;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.nav-desktop a:hover {
+  color: var(--primary-color);
+}
+
+.nav-desktop a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--primary-color);
+  transition: var(--transition);
+}
+
+.nav-desktop a:hover::after {
+  width: 100%;
+}
+
+.contact-btn {
+  background-color: var(--primary-color);
+  color: white !important;
+  padding: 10px 24px !important;
+  border-radius: 2px;
+}
+
+.contact-btn:hover {
+  background-color: #8c6a46;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--light-color);
+  cursor: pointer;
+  z-index: 1001;
+}
+
+@media (max-width: 992px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-desktop {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 400px;
+    height: 100vh;
+    background-color: rgba(26, 26, 26, 0.98);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .nav-desktop.show {
+    right: 0;
+  }
+
+  .nav-desktop ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .nav-desktop a {
+    font-size: 18px;
+  }
+}

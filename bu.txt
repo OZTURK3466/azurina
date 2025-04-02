@@ -1,0 +1,11 @@
+carrousel accueil 3ème image
+
+{
+      id: 3,
+      image: '/images/carousel1.jpg', // Remplacez par votre troisième image
+      tag: 'Luxe',
+      title: 'L\'art de vivre à son apogée',
+      subtitle: 'Excellence et raffinement à chaque détail',
+      linkText: 'Découvrir nos propriétés',
+      date: '8 Mars 2025'
+    }

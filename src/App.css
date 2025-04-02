@@ -1,0 +1,85 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #a67c52;
+  --secondary-color: #2c3e50;
+  --light-color: #f9f9f9;
+  --dark-color: #1a1a1a;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: Calibri, 'Segoe UI', Arial, sans-serif;
+  color: var(--dark-color);
+  overflow-x: hidden;
+  background-color: var(--light-color); /* Ajout du fond sombre pour éviter le flash blanc */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Calibri, 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.site-content {
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--light-color); /* La couleur du fond de votre site */
+  transform: scale(1.05);
+  transition: 
+    transform 0.8s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 0.8s cubic-bezier(0.23, 1, 0.32, 1),
+    visibility 0s linear 0.8s;
+}
+
+.site-content.ready {
+  opacity: 0;
+  visibility: visible;
+  transition: 
+    transform 0.8s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 0.8s cubic-bezier(0.23, 1, 0.32, 1),
+    visibility 0s linear;
+}
+
+.site-content.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+main {
+  width: 100%;
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
