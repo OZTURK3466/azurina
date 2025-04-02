@@ -20,7 +20,7 @@ const ProjectsPage = () => {
     },
     {
       id: 2,
-      title: 'Villa Cytes',
+      title: 'Villa Cystes',
       location: 'Mandelieu-La-Napoule',
       description: 'Un havre de luxe méditerranéen où élégance contemporaine et vues panoramiques sur la mer se rencontrent à Mandelieu-La Napoule.',
       mainImage: '/images/cytes/photo1.jpg',

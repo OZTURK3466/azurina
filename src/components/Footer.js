@@ -42,7 +42,7 @@ const Footer = () => {
           <h3 className="footer-heading">Projets Récents</h3>
           <ul className="footer-links">
             <li><Link to="/projet/villa-mougins">Villa Mougins</Link></li>
-            <li><Link to="/projet/villa-cytes">Villa Cytes</Link></li>
+            <li><Link to="/projet/villa-cytes">Villa Cystes</Link></li>
           </ul>
         </div>
 

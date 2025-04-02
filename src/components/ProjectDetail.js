@@ -37,7 +37,7 @@ const ProjectDetail = () => {
     },
     'villa-cytes': {
       id: 2,
-      title: 'Villa Cytes',
+      title: 'Villa Cystes',
       location: 'Mandelieu-La-Napoule',
       address: 'Mandelieu-La-Napoule, Alpes-Maritimes',
       completion: 'Disponible immédiatement',
