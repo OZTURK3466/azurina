@@ -33,8 +33,7 @@ const ProjectsPage = () => {
   const upcomingProjects = [
     { name: "Villa Picasso 1" },
     { name: "Villa Picasso 2" },
-    { name: "Villa Fassum" },
-    { name: "Villa Romarin" }
+    { name: "Villa Khaseel" }
   ];
 
   useEffect(() => {
