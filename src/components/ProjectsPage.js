@@ -26,6 +26,15 @@ const ProjectsPage = () => {
       mainImage: '/images/cytes/photo1.jpg',
       status: 'Disponible',
       slug: 'villa-cytes'
+    },
+    {
+      id: 2,
+      title: 'Villa Picasso',
+      location: 'Mougins',
+      description: 'Un havre de luxe méditerranéen où élégance contemporaine et vues panoramiques sur la mer se rencontrent à Mandelieu-La Napoule.',
+      mainImage: '/images/picasso/picasso1.jpg',
+      status: 'Disponible',
+      slug: 'villa-picasso'
     }
   ];
   

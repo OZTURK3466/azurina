@@ -18,20 +18,14 @@ const AboutPage = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'SANA MOHAMAD',
-      position: 'Directrice Générale',
-      image: '/api/placeholder/300/300',
+      name: 'Ramazan Ozturk',
+      position: 'Président',
+      image: '/images/dirigeant1.jpeg',
     },
     {
       id: 2,
-      name: 'Raymond Expert',
-      position: 'Directeur Projets',
-      image: '/api/placeholder/300/300',
-    },
-    {
-      id: 3,
-      name: 'Marie Conseil',
-      position: 'Responsable Commerciale',
+      name: 'Samir',
+      position: 'Président',
       image: '/api/placeholder/300/300',
     }
   ];
@@ -98,9 +92,7 @@ const AboutPage = () => {
                 Basée à Cannes, au cœur de l'un des marchés immobiliers les plus prisés au monde, Azurina bénéficie d'une connaissance approfondie de la région et d'un réseau d'experts locaux qui nous permettent d'identifier les opportunités les plus prometteuses.
               </p>
             </div>
-            <div className="section-image">
-              <img src="/api/placeholder/600/400" alt="Siège Azurina à Cannes" />
-            </div>
+            
           </div>
         </section>
         
@@ -235,16 +227,10 @@ const AboutPage = () => {
           </div>
           <div className="partners-grid">
             <div className="partner-logo">
-              <img src="/api/placeholder/200/100" alt="Partner 1" />
+              <img src="/images/partner1.jpeg" alt="Partner 1" />
             </div>
             <div className="partner-logo">
-              <img src="/api/placeholder/200/100" alt="Partner 2" />
-            </div>
-            <div className="partner-logo">
-              <img src="/api/placeholder/200/100" alt="Partner 3" />
-            </div>
-            <div className="partner-logo">
-              <img src="/api/placeholder/200/100" alt="Partner 4" />
+              <img src="/images/partner2.png" alt="Partner 2" />
             </div>
           </div>
         </section>

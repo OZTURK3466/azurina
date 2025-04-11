@@ -59,6 +59,31 @@ const ProjectDetail = () => {
         '/images/cytes/photo4.jpg'
       ]
     }
+    ,
+    'villa-picasso': {
+      id: 3,
+      title: 'Construction de 2 villas - SCI Ophélie',
+      location: 'Mougins',
+      address: 'Chemin Pablo Picasso, Mougins',
+      completion: 'En cours de construction',
+      status: 'À venir',
+      surface: 'Terrain: 4 996 m²',
+      description: 'Ensemble résidentiel de deux villas de luxe situées dans un cadre boisé et préservé à Mougins.\n\nCe projet se caractérise par des volumes principaux en R+1 encadrés de volumes plus restreints en RDC. Les constructions sont pensées dans la largeur du site et en fond de parcelle pour préserver le caractère boisé, protéger les vues et limiter les terrassements. Les villas sont distanciées de plus de 10 mètres aux points les plus proches des façades, garantissant intimité et harmonie avec l\'environnement.',
+      features: [
+        'Architecture en pierre du pays hourdée à la chaux',
+        'Toitures en tuiles de terre cuite',
+        'Toitures végétalisées pour les volumes en RDC',
+        'Menuiseries en bois vernis naturel',
+        'Piscines avec système de filtration écologique',
+        'Préservation des espaces boisés classés (EBC)',
+        'Reboisement avec 41 nouveaux arbres de haute tige'
+      ],
+      images: [
+        '/images/picasso/picasso1.jpg',
+        '/images/picasso/picasso2.jpg',
+        '/images/picasso/picasso3.jpg',
+      ]
+    }
   };
   
   const project = projectsData[slug];
